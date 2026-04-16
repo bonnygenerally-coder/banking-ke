@@ -3,6 +3,9 @@ fastapi==0.110.1
 starlette==0.37.2
 uvicorn[standard]==0.25.0
 
+# ✅ Required for FastAPI form-data (ADD HERE)
+python-multipart==0.0.9
+
 # Async & Networking
 aiohttp==3.13.5
 aiofiles==25.1.0
