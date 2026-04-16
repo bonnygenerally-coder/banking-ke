@@ -42,7 +42,7 @@ googleapis-common-protos==1.74.0
 # ✅ FIXED gRPC (Python 3.11+ safe)
 grpcio==1.66.2
 grpcio-status==1.66.2
-protobuf==4.25.8
+protobuf==5.26.1
 
 # Messaging / External APIs
 africastalking==2.0.2
