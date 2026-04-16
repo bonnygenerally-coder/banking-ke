@@ -1,0 +1,37 @@
+# Dolaglobo Finance - Robots.txt
+# https://dolaglobo.co.ke/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all pages to be crawled
+Allow: /register
+Allow: /login
+Allow: /about
+Allow: /contact
+Allow: /careers
+Allow: /privacy
+Allow: /terms
+
+# Disallow admin and user dashboard areas (private)
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /wallet
+Disallow: /transactions
+Disallow: /savings
+Disallow: /loans
+Disallow: /airtime
+Disallow: /statements
+Disallow: /profile
+Disallow: /settings
+
+# Disallow API endpoints
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://dolaglobo.co.ke/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
