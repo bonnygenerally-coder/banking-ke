@@ -27,7 +27,7 @@ flake8==7.3.0
 frozenlist==1.8.0
 fsspec==2026.3.0
 
-# ✅ Keep only ONE Google AI SDK (modern)
+# ✅ Single Google AI SDK (no conflicts)
 google-genai==1.71.0
 
 google-api-core==2.30.2
@@ -36,8 +36,9 @@ google-auth==2.49.1
 google-auth-httplib2==0.3.1
 googleapis-common-protos==1.74.0
 
-grpcio==1.80.0
-grpcio-status==1.80.0
+# ✅ Compatible gRPC versions
+grpcio==1.62.2
+grpcio-status==1.62.2
 
 h11==0.16.0
 hf-xet==1.4.3
@@ -78,7 +79,7 @@ pluggy==1.6.0
 propcache==0.4.1
 proto-plus==1.27.2
 
-# ✅ FIXED VERSION (critical)
+# ✅ Critical fix
 protobuf==4.25.8
 
 pyasn1==0.6.3
